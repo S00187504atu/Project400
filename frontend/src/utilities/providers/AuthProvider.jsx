@@ -29,6 +29,7 @@ const AuthProvider = ({children}) => {
             throw error;
         }
     }
+    //logout user
     const logout = async () => {
         try {
             return await signOut(auth)

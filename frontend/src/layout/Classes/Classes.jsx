@@ -91,7 +91,7 @@ const Classes = () => {
       <div className="mt-20 pt-3">
         <h1 className="text-4xl font-bold text-center text-dark-primary">Classes</h1>
       </div>
-      <div className="my-16 w-[90%] gap-8 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-auto">
+      <div className="my-16 w-[90%] gap-8 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-auto">
         {classes.map((cls, index) => (
           <div
             key={index}
